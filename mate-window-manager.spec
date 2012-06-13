@@ -7,7 +7,7 @@
 Summary:	MATE window manager
 Name:		mate-window-manager
 Version:	1.2.0
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
 URL:		http://mate-desktop.org
@@ -36,7 +36,7 @@ BuildRequires: pkgconfig(xinerama)
 BuildRequires: pkgconfig(xrandr)
 BuildRequires: pkgconfig(xrender)
 
-Requires: zenity
+Requires: mate-dialogs
 
 %description
 MATE Window Manager is a simple window manager that integrates nicely with 
