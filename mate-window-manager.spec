@@ -6,8 +6,8 @@
 
 Summary:	MATE window manager
 Name:		mate-window-manager
-Version:	1.2.0
-Release:	2
+Version:	1.4.1
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
 URL:		http://mate-desktop.org
@@ -53,7 +53,7 @@ This package contains libraries used by MATE Window Manager.
 Summary:	Libraries and include files with MATE Window Manager
 Group:		Development/C
 Requires:	%{libname} = %{version}
-Provides:	%{name}-devel = %{version}-%{release}
+Provides:	%{name}-devel = %{EVRD}
 
 %description -n %{develname}
 This package provides the necessary development libraries and include 
