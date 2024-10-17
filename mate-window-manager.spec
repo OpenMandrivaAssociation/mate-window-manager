@@ -10,7 +10,7 @@ Version:	1.4.1
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
-URL:		http://mate-desktop.org
+URL:		https://mate-desktop.org
 Source0:	http://pub.mate-desktop.org/releases/1.2/%{name}-%{version}.tar.xz
 
 BuildRequires: intltool
