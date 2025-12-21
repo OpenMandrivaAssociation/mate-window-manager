@@ -13,6 +13,11 @@ Group:		Graphical desktop/GNOME
 URL:		https://mate-desktop.org
 Source0:	http://pub.mate-desktop.org/releases/1.2/%{name}-%{version}.tar.xz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: intltool
 BuildRequires: mate-common
 BuildRequires: mate-conf
